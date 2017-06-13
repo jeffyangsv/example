@@ -57,7 +57,7 @@ def getloglist():
     fileHandle.close();
     return loglist
 
-#----------------------------------------------
+#---------------------------------------------
 def getheadwords(line):
     return re.split(r'\s+', line)
 
